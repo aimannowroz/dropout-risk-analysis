@@ -1,0 +1,10 @@
+# Never commit real survey responses
+data/*
+!data/sample_survey.xlsx
+!data/README.md
+
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+*.png
+!figures/*.png
